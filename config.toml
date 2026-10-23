@@ -1,0 +1,14 @@
+onboarding = false
+
+[keys]
+prefix = "ctrl+alt+cmd+shift+space"
+switch_tab = ["prefix+1..9", "cmd+1..9"]
+navigate_workspace_down = "j"
+navigate_workspace_up = "k"
+open_worktree = "prefix+shift+g"
+new_worktree = "prefix+t"
+remove_worktree = "prefix+shift+t"
+split_horizontal = ""
+
+[ui]
+prompt_new_tab_name = false

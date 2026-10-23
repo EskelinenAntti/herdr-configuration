@@ -1,0 +1,11 @@
+# Runtime logs and sockets
+*.log
+*.sock
+
+# Local session state and application metadata
+session.json
+release-notes.json
+.plugins.lock
+
+# macOS metadata
+.DS_Store
