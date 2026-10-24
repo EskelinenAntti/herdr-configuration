@@ -1,11 +1,14 @@
 # Runtime logs and sockets
 *.log
 *.sock
+*.sock.agent
 
 # Local session state and application metadata
 session.json
 release-notes.json
 .plugins.lock
+plugins.json
+plugins/
 
 # macOS metadata
 .DS_Store
