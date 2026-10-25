@@ -1,7 +1,8 @@
 onboarding = false
 
 [keys]
-prefix = "ctrl+alt+cmd+shift+space"
+workspace_picker = "ctrl+alt+cmd+shift+space"
+
 switch_tab = ["prefix+1..9", "cmd+1..9"]
 navigate_workspace_down = "j"
 navigate_workspace_up = "k"
