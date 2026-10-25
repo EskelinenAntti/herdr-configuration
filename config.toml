@@ -13,9 +13,16 @@ open_notification_target = "prefix+shift+o"
 
 [[keys.command]]
 key = "prefix+o"
-type = "plugin_action"
-command = "tmuxide.open"
-description = "Open project or file"
+type = "popup"
+
+command = "zsh -lic ide"
+width = "80%"
+height = "70%"
+description = "tmuxide"
 
 [ui]
 prompt_new_tab_name = false
+
+[theme]
+name = "terminal"
+auto_switch = false
