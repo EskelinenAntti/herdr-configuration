@@ -9,6 +9,7 @@ release-notes.json
 .plugins.lock
 plugins.json
 plugins/
+session-snapshots/
 
 # macOS metadata
 .DS_Store
