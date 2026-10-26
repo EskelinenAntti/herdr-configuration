@@ -2,7 +2,6 @@ onboarding = false
 
 [keys]
 workspace_picker = "ctrl+alt+cmd+shift+space"
-
 switch_tab = ["prefix+1..9", "cmd+1..9"]
 navigate_workspace_down = "j"
 navigate_workspace_up = "k"
@@ -14,11 +13,8 @@ open_notification_target = "prefix+shift+o"
 
 [[keys.command]]
 key = "prefix+o"
-type = "popup"
-
-command = "zsh -lic ide"
-width = "80%"
-height = "70%"
+type = "plugin_action"
+command = "tmuxide.open"
 description = "tmuxide"
 
 [ui]
