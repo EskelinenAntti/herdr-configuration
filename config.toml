@@ -12,14 +12,15 @@ split_horizontal = ""
 open_notification_target = "prefix+shift+o"
 
 [[keys.command]]
-key = "prefix+o"
+key = "prefix+f"
 type = "plugin_action"
-command = "tmuxide.open"
-description = "tmuxide"
+command = "zipln.open"
+description = "zipln"
 
 [ui]
 prompt_new_tab_name = false
 
+status_indicators = "symbols"
 [theme]
 name = "terminal"
 auto_switch = false
