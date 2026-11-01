@@ -38,11 +38,6 @@ status_indicators = "symbols"
 
 [theme]
 name = "terminal"
-auto_switch = false
-
-[theme.custom]
-active_row_bg = "#353535"
-surface_dim = "black"
 
 [ui.sound]
 enabled = false
