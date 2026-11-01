@@ -1,15 +1,12 @@
 onboarding = false
 
 [keys]
-workspace_picker = "ctrl+alt+cmd+shift+space"
-switch_tab = ["cmd+1..9"]
+prefix = "ctrl+alt+cmd+shift+space"
 navigate_workspace_down = "j"
 navigate_workspace_up = "k"
 open_worktree = "prefix+shift+g"
 new_worktree = "prefix+t"
 remove_worktree = "prefix+shift+t"
-split_horizontal = ""
-open_notification_target = "prefix+shift+o"
 
 [[keys.command]]
 key = "prefix+f"
