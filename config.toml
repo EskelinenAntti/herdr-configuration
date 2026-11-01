@@ -17,8 +17,8 @@ description = "zipln"
 [[keys.command]]
 key = "prefix+shift+a"
 type = "shell"
-command = 'sh "$HOME/.config/herdr/open-tab.sh" codex'
-description = "codex"
+command = 'sh "$HOME/.config/herdr/open-tab.sh" claude'
+description = "claude"
 
 [[keys.command]]
 key = "prefix+shift+m"
