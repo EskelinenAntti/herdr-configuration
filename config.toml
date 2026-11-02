@@ -38,6 +38,14 @@ status_indicators = "symbols"
 
 [theme]
 name = "terminal"
+auto_switch = false
+
+# Match the terminal background; also gives active tabs a concrete dark text color.
+[theme.custom]
+panel_bg = "#181616"
+sidebar_bg = "reset"
+active_row_bg = "#353131"
+surface_dim = "#353131"
 
 [ui.sound]
 enabled = false
